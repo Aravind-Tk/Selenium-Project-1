@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-18T06:07:32 IST" name="Parallel Test Suite" finished-at="2023-02-18T06:07:41 IST" duration-ms="9511">
+    <groups>
+    </groups>
+    <test started-at="2023-02-18T06:07:32 IST" name="searchOnAmazon" finished-at="2023-02-18T06:07:41 IST" duration-ms="9511">
+      <class name="amazon.automation.searchOnAmazon">
+        <test-method is-config="true" signature="navigateToAmazon()[pri:0, instance:amazon.automation.searchOnAmazon@4b0d79fc]" started-at="2023-02-18T06:07:32 IST" name="navigateToAmazon" finished-at="2023-02-18T06:07:41 IST" duration-ms="9096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAmazon -->
+        <test-method signature="searchItem()[pri:0, instance:amazon.automation.searchOnAmazon@4b0d79fc]" started-at="2023-02-18T06:07:41 IST" name="searchItem" finished-at="2023-02-18T06:07:41 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+      </class> <!-- amazon.automation.searchOnAmazon -->
+    </test> <!-- searchOnAmazon -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>
