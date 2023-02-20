@@ -1,5 +1,5 @@
 package utils;
 
-public class Listener extends ITes{
+public class Listener {
 
 }
