@@ -19,12 +19,12 @@ public class searchOnAmazon {
 	@BeforeClass
 	public static void navigateToAmazon() {
 		
-		if(browser.equals("chrome")) {
+		if(browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			
 		}
-		else if(browser.equals("edge")) {
+		else if(browser.equalsIgnoreCase("edge")) {
 		WebDriverManager.edgedriver().setup();
 		driver= new EdgeDriver();
 		}
